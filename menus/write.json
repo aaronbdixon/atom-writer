@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle write",
+        "command": "write:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "write",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "write:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

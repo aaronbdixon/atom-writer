@@ -3,6 +3,14 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
+@import (less) "../node_modules/medium-editor/dist/css/medium-editor.min.css";
+@import (less) "../node_modules/medium-editor/dist/css/themes/bootstrap.min.css";
 
 .write {
+  width: 100vw;
+  padding: 100px;
+}
+
+.write .markdown {
+  display: none;
 }

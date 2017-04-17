@@ -1,18 +1,21 @@
 {
-  "name": "write",
+  "name": "Write",
   "main": "./lib/write",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "A beautiful writing experience.",
   "keywords": [
+    "Markdown",
+    "Blogging",
+    "Writing"
   ],
-  "activationCommands": {
-    "atom-workspace": "write:toggle"
-  },
-  "repository": "https://github.com/atom/write",
+  "repository": "https://github.com/aaronbdixon/atom-writer",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "jquery": "^3.2.1",
+    "medium-editor": "^5.23.0",
+    "medium-editor-markdown": "^2.6.0"
   }
 }

@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "jquery": "^3.2.1",
+    "marked": "^0.3.6",
     "medium-editor": "^5.23.0",
-    "medium-editor-markdown": "^2.6.0"
+    "medium-editor-markdown": "^2.6.0",
+    "to-markdown": "^3.0.4"
   }
 }

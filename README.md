@@ -1,3 +1,3 @@
 # Atom Writer
 
-_A_ **jaunt** into writing in <u>Atom</u>.
+_A_ jaunt into <u>**writing**</u> in <u>Atom</u>.

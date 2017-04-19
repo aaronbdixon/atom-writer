@@ -1,7 +1,6 @@
 {
   "atom-workspace": {
     "ctrl-alt-o": "write:enable",
-    "ctrl-alt-c": "write:disable",
-    "ctrl-alt-t": "write:toggle-markdown"
+    "ctrl-alt-c": "write:disable"
   }
 }

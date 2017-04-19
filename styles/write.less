@@ -6,12 +6,25 @@
 @import (less) "../node_modules/medium-editor/dist/css/medium-editor.min.css";
 @import (less) "../node_modules/medium-editor/dist/css/themes/bootstrap.min.css";
 
-.write {
+.atom-writer {
   width: 100vw;
-  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   overflow: scroll;
 }
 
-.write .markdown {
-  display: none;
+.atom-writer--editor {
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
+}
+
+.atom-writer--options {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  background: orange;
 }

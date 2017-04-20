@@ -14,12 +14,11 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "etch": "^0.12.2",
-    "jquery": "^3.2.1",
     "js-yaml": "^3.8.3",
     "marked": "^0.3.6",
     "medium-editor": "^5.23.0",
-    "medium-editor-markdown": "^2.6.0",
     "medium-sdk": "0.0.4",
     "to-markdown": "^3.0.4"
   }

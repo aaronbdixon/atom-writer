@@ -43,16 +43,47 @@
 }
 
 .atom-writer--options {
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
-  background: orange;
-
   input {
     color: black;
   }
 
   .options-menu {
-    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    width: 40vw;
+    border-left: 5px solid #fff;
+    margin-right: -40vw;
+
+    &.open {
+      animation: open-options 0.5s forwards;
+    }
+
+    &.close {
+      animation: close-options 0.5s forwards;
+    }
+
+    @keyframes open-options {
+      0% { margin-right: -40vw; }
+      100% { margin-right: 0vw; }
+    }
+
+    @keyframes close-options {
+      0% { margin-right: 0vw; }
+      100% { margin-right: -40vw; }
+    }
+  }
+
+  button#menu-toggle {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+  }
+
+  button#save {
+    width: 90%;
+    margin: auto;
   }
 }

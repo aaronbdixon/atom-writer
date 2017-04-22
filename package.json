@@ -15,11 +15,14 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "classnames": "^2.2.5",
     "etch": "^0.12.2",
     "js-yaml": "^3.8.3",
+    "lodash": "^4.17.4",
     "marked": "^0.3.6",
     "medium-editor": "^5.23.0",
     "medium-sdk": "0.0.4",
+    "spellchecker": "^3.3.1",
     "to-markdown": "^3.0.4"
   }
 }

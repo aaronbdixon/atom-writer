@@ -1,3 +1,3 @@
 # Atom Writer
 
-_A_ jaunt into <u>**writing**</u> in <u>Atom</u>.
+A beautiful writing experience for Atom.

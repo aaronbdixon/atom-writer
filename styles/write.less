@@ -53,8 +53,8 @@
     right: 0;
     height: 100vh;
     width: 40vw;
-    border-left: 5px solid #fff;
     margin-right: -40vw;
+    background: #fff;
 
     &.open {
       animation: open-options 0.5s forwards;
@@ -75,11 +75,81 @@
     }
   }
 
-  button#menu-toggle {
+  nav {
     position: absolute;
     bottom: 20px;
     right: 20px;
     z-index: 10;
+
+    #exit-button {
+      position: absolute;
+      height: 35px;
+      width: 60px;
+      background: rgba(0,0,0,.2);
+      line-height: 35px;
+      margin: 18px auto;
+      right: 50px;
+      border-radius: 5px;
+      text-align: center;
+      cursor: pointer;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    #menu-button {
+      width: 40px;
+      height: 30px;
+      position: relative;
+      margin: 20px auto;
+      transform: rotate(0deg);
+      transition: .5s ease-in-out;
+      cursor: pointer;
+
+      span {
+        display: block;
+        position: absolute;
+        height: 6px;
+        width: 100%;
+        background: rgba(0,0,0,1);
+        border-radius: 6px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;
+      }
+
+      span:nth-child(1) {
+        top: 0px;
+      }
+
+      span:nth-child(2), span:nth-child(3) {
+        top: 12px;
+      }
+
+      span:nth-child(4) {
+        top: 24px;
+      }
+
+      &.open span:nth-child(1) {
+        top: 18px;
+        width: 0%;
+        left: 50%;
+      }
+
+      &.open span:nth-child(2) {
+        transform: rotate(45deg);
+      }
+
+      &.open span:nth-child(3) {
+        transform: rotate(-45deg);
+      }
+
+      &.open span:nth-child(4) {
+        top: 18px;
+        width: 0%;
+        left: 50%;
+      }
+    }
   }
 
   button#save {

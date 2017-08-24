@@ -8,4 +8,4 @@ This is a normal paragraph with some **bold**, _italic_ and <u>underlined</u> te
 
 > This is a blockquote
 
-Let's try a mispelling. I canz spellz.
+Let's try a mispelling. I canz spell z.

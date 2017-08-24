@@ -2,12 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Enable Write",
-        "command": "write:enable"
-      },
-      {
-        "label": "Disable Write",
-        "command": "write:disable"
+        "label": "Toggle Atom Writer",
+        "command": "write:toggle"
       }
     ]
   },
@@ -19,8 +15,8 @@
           "label": "Write",
           "submenu": [
             {
-              "label": "Enable",
-              "command": "write:enable"
+              "label": "Toggle Atom Writer",
+              "command": "write:toggle"
             }
           ]
         }

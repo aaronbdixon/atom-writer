@@ -14,7 +14,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7",
     "classnames": "^2.2.5",
     "etch": "^0.12.2",
     "js-yaml": "^3.8.3",
@@ -22,6 +21,7 @@
     "marked": "^0.3.6",
     "medium-editor": "^5.23.0",
     "medium-sdk": "0.0.4",
+    "octicons": "^6.0.1",
     "rxjs": "^5.3.0",
     "spellchecker": "^3.3.1",
     "to-markdown": "^3.0.4"
